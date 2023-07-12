@@ -1,0 +1,34 @@
+/* we can even do h1{} to change color of h1, or create a class such as odd or even and use it on multiple elements */
+
+.odd {
+  color: #ff386a;
+}
+
+.even {
+  color: #734dff;
+}
+
+#tree {
+ color: #6bffb3; 
+}
+
+img {
+  width: 50%;
+}
+
+/*
+we can do below as div {} as well but we defined class and used .class to give attributes*/
+
+/*
+.out {
+  background-color: #ff147a;
+  width: 1%;
+  height: 10px;
+}*/
+
+/*
+.in {
+  background-color: blue;
+  width: 1%;
+  height: 10px;
+}*/
