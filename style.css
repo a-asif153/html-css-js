@@ -12,6 +12,12 @@
  color: #6bffb3; 
 }
 
+#AI {
+  color: red;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
 img {
   width: 50%;
 }
