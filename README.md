@@ -1,1 +1,1 @@
-this repo is for trying fun html, css, js commands
+This repo is for learning html layout, buttons, text and stylization in cssxs

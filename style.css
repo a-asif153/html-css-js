@@ -1,4 +1,6 @@
-/* we can even do h1{} to change color of h1, or create a class such as odd or even and use it on multiple elements */
+/* we can even do h1{} to change color of all h1 on page, or create a class such as odd or even and use it on multiple elements */
+
+/* Below is text and image styling of the page */
 
 .odd {
   color: #ff386a;
@@ -9,7 +11,7 @@
 }
 
 #tree {
- color: #6bffb3; 
+  color: #6bffb3;
 }
 
 #AI {
@@ -21,6 +23,59 @@
 img {
   width: 50%;
 }
+
+p {
+  font-family: Roboto;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 280px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.video-author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.video-description {
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+  width: 280px;
+  line-height: 20px;
+  margin-bottom: 100px;
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.shop-now-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
 
 /*
 we can do below as div {} as well but we defined class and used .class to give attributes*/
@@ -38,3 +93,85 @@ we can do below as div {} as well but we defined class and used .class to give a
   width: 1%;
   height: 10px;
 }*/
+
+
+/* Below are the button styles */
+
+.subscribe-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+/* below :hover, :active are examples of pseudo class*/
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  color: rgb(41, 118, 211);
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+
+.tweet-button {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  width: 200px;
+  height: 36px;
+  border: none;
+  border-radius: 18px;
+  margin-left: 8px;
+  cursor: pointer;
+}
